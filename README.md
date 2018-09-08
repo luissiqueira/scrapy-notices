@@ -28,7 +28,7 @@ Os itens retornados seguirão a seguinte estrutura.
 
 ```json
   {
-    "title": "Bolsonaro segue na UTI e tem boas condi\u00e7\u00f5es cl\u00ednicas, diz boletim m\u00e9dico",
+    "title": "Bolsonaro segue na UTI e tem boas condições clínicas, diz boletim médico",
     "url": "https://g1.globo.com/sp/sao-paulo/noticia/2018/09/08/bolsonaro-segue-na-uti-e-em-boas-condicoes-clinicas-diz-boletim-medico.ghtml",
     "publish_date": "2018-09-08T13:42:15.277Z"
   }
