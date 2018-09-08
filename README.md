@@ -6,20 +6,32 @@ Repositório destinado a uma prova de conceito para exemplificar o uso do scrapy
 
 Instalar os requerimentos.
 
-```shell
+```bash
 $ pip install -r requirements.txt
 ```
 
 Para executar o exemplo do G1:
 
-```python
+```bash
 $ scrapy runspider globo_spider.py -o globo_items.json
 ```
 
 Para executar o exemplo da CNN:
 
-```python
+```bash
 $ scrapy runspider cnn_spider.py -o cnn_items.json
+```
+
+## Retornos
+
+Os itens retornados seguirão a seguinte estrutura.
+
+```json
+  {
+    "title": "Bolsonaro segue na UTI e tem boas condi\u00e7\u00f5es cl\u00ednicas, diz boletim m\u00e9dico",
+    "url": "https://g1.globo.com/sp/sao-paulo/noticia/2018/09/08/bolsonaro-segue-na-uti-e-em-boas-condicoes-clinicas-diz-boletim-medico.ghtml",
+    "publish_date": "2018-09-08T13:42:15.277Z"
+  }
 ```
 
 ## Limitações
