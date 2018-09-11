@@ -13,13 +13,13 @@ $ pip install -r requirements.txt
 Para executar o exemplo do G1:
 
 ```bash
-$ scrapy runspider globo_spider.py -o globo_items.json
+$ scrapy runspider globo_crawler.py -o globo_items.json
 ```
 
 Para executar o exemplo da CNN:
 
 ```bash
-$ scrapy runspider cnn_spider.py -o cnn_items.json
+$ scrapy runspider cnn_crawler.py -o cnn_items.json
 ```
 
 ## Retornos
