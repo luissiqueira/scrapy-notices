@@ -36,4 +36,4 @@ Os itens retornados seguirão a seguinte estrutura.
 
 ## Limitações
 
-Por se tratar de um projeto para prova de conceito, algumas funcionalidades não foram implementadas como a recursividade no links e a passagem de parâmetros para início de busca dos links.
+Por se tratar de um projeto para prova de conceito, algumas funcionalidades não foram implementadas como a passagem de parâmetros para início de busca dos links.
